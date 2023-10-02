@@ -1,6 +1,6 @@
 node{
 
-def mavenHome = tool name: 'maven3.9.2'
+def mavenHome = tool name: 'maven'
 
 echo "Job name is: $JOB_NAME" 
 echo "Node name is: $NODE_NAME"
