@@ -26,9 +26,9 @@ sh "${mavenHome}/bin/mvn clean deploy"
 }
 
 stage('DeployAppIntoTomcatServer'){
-sshagent(['admin-tomcat']) {
-   sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ubuntu@172.31.55.195:/opt/tomcat9/webapps/"
-}
+//sshagent(['admin-tomcat']) {
+   //sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ubuntu@172.31.55.195:/opt/tomcat9/webapps/"
+//}
 }
 
 
